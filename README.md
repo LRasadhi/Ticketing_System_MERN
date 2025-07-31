@@ -34,9 +34,7 @@ A comprehensive customer support platform with intelligent automation workflows,
 ### Backend
 - **Node.js** with **Express.js** - RESTful API server
 - **MongoDB** - Document database for flexible data storage
-- **Socket.io** - Real-time bidirectional communication
 - **JWT** - Secure authentication and authorization
-- **Multer** - File upload handling
 - **n8n** - Workflow automation engine
 
 ### Frontend
@@ -44,13 +42,9 @@ A comprehensive customer support platform with intelligent automation workflows,
 - **Material-UI / Tailwind CSS** - Responsive design system
 - **Redux Toolkit** - State management
 - **React Query** - Server state management and caching
-- **Socket.io Client** - Real-time updates
 
 ### Automation & Integrations
 - **n8n** - Visual workflow automation
-- **SendGrid/Mailgun** - Email service providers
-- **Slack API** - Team collaboration integration
-- **Webhook APIs** - External system integrations
 
 ## 📁 Project Structure
 
@@ -295,71 +289,9 @@ npm run test:integration
 npm run test:coverage
 ```
 
-## 🚀 Deployment
-
-### Production Deployment
-
-1. **Environment Setup**
-   ```bash
-   NODE_ENV=production
-   # Update all environment variables for production
-   ```
-
-2. **Build Frontend**
-   ```bash
-   cd frontend
-   npm run build
-   ```
-
-3. **Deploy Options**
-   - **Docker**: Use provided Dockerfile and docker-compose.prod.yml
-   - **Cloud Platforms**: Heroku, AWS, DigitalOcean
-   - **VPS**: Ubuntu/CentOS with PM2 process manager
-
-For detailed deployment instructions, see [DEPLOYMENT.md](docs/DEPLOYMENT.md)
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Development Guidelines
-- Follow ESLint configuration
-- Write tests for new features
-- Update documentation for API changes
-- Use conventional commit messages
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - [n8n](https://n8n.io/) - Workflow automation platform
 - [MongoDB](https://www.mongodb.com/) - Database platform
 - [React](https://reactjs.org/) - Frontend framework
 - [Express.js](https://expressjs.com/) - Backend framework
-- [Socket.io](https://socket.io/) - Real-time communication
-
-## 📞 Support
-
-- **Documentation**: [Wiki](https://github.com/yourusername/customer-support-system/wiki)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/customer-support-system/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/customer-support-system/discussions)
-- **Email**: support@yourcompany.com
-
-## 🗺️ Roadmap
-
-- [ ] **v2.0**: AI-powered ticket categorization
-- [ ] **v2.1**: Mobile app for agents
-- [ ] **v2.2**: Advanced analytics with ML insights
-- [ ] **v2.3**: Multi-language support
-- [ ] **v2.4**: Video call integration
-- [ ] **v3.0**: Microservices architecture migration
-
----
-
-**Made with ❤️ by [Your Name/Team]**
